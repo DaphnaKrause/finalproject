@@ -1,0 +1,56 @@
+body {
+  background: #83929F;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1500px;
+}
+
+.card {
+  width: 18rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cimg {
+  width: 100%;
+}
+
+#articles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+
+#climatequiz {
+margin-top: 3rem;
+border: 1px solid #096b2e;
+}
+
+#nasavideos {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: 1px solid #096b2e;
+ padding: 1rem 2rem;
+ margin: 1rem 0;
+ flex-basis: 49%;
+}
+
+#RRR {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 30px;
+}
+
+a {
+  color:#096b2e;
+}
+
+/*@media screen and (max-width: 375px)) {
+
+  }
+}
+
+ width="768" height="432"
